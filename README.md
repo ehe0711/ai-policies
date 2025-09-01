@@ -15,6 +15,10 @@ By applying a lightweight lexicon-based NLP approach, the project classifies pol
 ## 📁 Repository Structure
 
 ```text
+├── keywords
+    └── balanced_stance.png
+    └── positive_stance.png
+    └── negative_stance.png
 ├── data
 │   └── ai_policy_dataset.csv      # Collected and summarized policy dataset
 │
@@ -36,7 +40,7 @@ By applying a lightweight lexicon-based NLP approach, the project classifies pol
 │
 ├── requirements.txt
 └── README.md
-\`\`\`
+```
 
 ---
 
@@ -44,12 +48,12 @@ By applying a lightweight lexicon-based NLP approach, the project classifies pol
 
 Install dependencies with:
 
-\`\`\`bash
+```bash
 pip install -r requirements.txt
-\`\`\`
+```
 
 ### requirements.txt
-\`\`\`text
+```text
 pandas
 numpy
 matplotlib
@@ -84,7 +88,7 @@ The dataset (`ai_policy_dataset.csv`) contains:
 - **domain_type** → HighSchool, CollegeGrad, or Industry  
 - **policy_summary** → Short standardized summaries of each policy  
 
-Dataset can be found at https://huggingface.co/datasets/ehe07/ai-policies. For transparency, the complete keyword lists are also hosted in this repo.
+Published dataset can be found at https://huggingface.co/datasets/ehe07/ai-policies. 
 
 ---
 
@@ -95,7 +99,11 @@ Generated outputs include:
 - **Cross-domain comparison**: Side-by-side bar charts of stance frequency.  
 - **Stance balance**: Ratio of positive to negative mentions per domain.  
 - **Stance proportions**: Distribution of stance categories as percentages.  
-- **Policy profiles (radar chart)**: Domain “profiles” showing how balanced (or imbalanced) their stance is.  
+- **Policy profiles (radar chart)**: Domain “profiles” showing how balanced (or imbalanced) their stance is.
+
+## Keywords Used
+
+To enhance reproducibility, illustrations of all keywords by sentiment category are provided in the **keywords** folder. 
 
 ---
 
