@@ -14,7 +14,7 @@ By applying a lightweight lexicon-based NLP approach, the project classifies pol
 
 ## 📁 Repository Structure
 
-\`\`\`text
+```text
 ├── data
 │   └── ai_policy_dataset.csv      # Collected and summarized policy dataset
 │
@@ -54,7 +54,7 @@ pandas
 numpy
 matplotlib
 seaborn
-\`\`\`
+```
 
 ---
 
@@ -62,9 +62,9 @@ seaborn
 
 Run the main analysis from the `scripts/` directory:
 
-\`\`\`bash
+```bash
 python policy_analysis.py
-\`\`\`
+```
 
 This will:
 - Load the dataset (`data/ai_policy_dataset.csv`)
@@ -126,9 +126,9 @@ For major changes, please discuss them first in an issue.
 
 If you use this repo, please cite:
 
-\`\`\`text
+```text
 Author: Ethan He
 Title: AI Policy Gap Analysis
 Year: 2025
 URL: https://github.com/ehe0711/ai-policies
-\`\`\`
+```
