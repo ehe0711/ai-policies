@@ -84,7 +84,7 @@ The dataset (`ai_policy_dataset.csv`) contains:
 - **domain_type** → HighSchool, CollegeGrad, or Industry  
 - **policy_summary** → Short standardized summaries of each policy  
 
-The raw keyword dictionaries (Positive, Negative, Cautionary) are defined in the scripts. For transparency, the complete keyword lists are also hosted in this repo.
+Dataset can be found at https://huggingface.co/datasets/ehe07/ai-policies. For transparency, the complete keyword lists are also hosted in this repo.
 
 ---
 
